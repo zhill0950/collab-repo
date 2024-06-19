@@ -1,95 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./assets/style.css"/>
+
+    <title>CSS Snippet Cheatsheet</title>
 </head>
 
 <body>
+
     <header>
         <h1>CSS Snippet Cheatsheet</h1>
-    </header>
-    <section>
-        <h2>Ever have trouble recalling the exact syntax for your favorite CSS code?
+
+        <p>Ever have trouble recalling the exact syntax for your favorite CSS code?
             Give it a permanent home and add it to this page! Select any snippet below
             and it will automatically select all of the code for your to copy.
-        </h2>
-        <article>
-            <div>
-                <h3>Flexbox Row</h3>
-                <p>Use these three properties to create a flexbox row layout.</p>
-                <code>
-                    .row {
-                        display: flex;
-                        flex-direction: row;
-                        flex-wrap: wrap;
-                    }
-                </code>
-            </div>
-            <div>
-                <h3>Flexbox Column</h3>
-                <p>Use this to create a flexbox column layout.</p>
-                <code>
-                    .column {
-                        display: flex;
-                        flex-direction: column;
-                    }
-                </code>
-            </div>
-            <div>
-                <h3>CSS Grid Layout</h3>
-                <p>Build a 12-column layout using CSS grid.</p>
-                <code>
-                    .grid {
-                        display: grid;
-                        width: 100%;
-                        grid-template-columns: repeat(12, 1fr);
-                    }
-                </code>
-            </div>
-            <div>
-                <h3>Linear Gradients</h3>
-                <p>This will create a background linear gradient from top to bottom.</p>
-                <code>
-                    .linear-gradient-background {
-                        background-image: linear-gradient(
-                            rgba(232, 102, 236, 0.3) 0%,
-                            rgba(232, 102, 236, 0.6) 100%
-                        );
-                    }
-                </code>
-            </div>
-            <div>
-                <h3>Box Transition Glow</h3>
-                <p>Use transition and box shadows to glow on hover.</p>
-                <code>
-                    .code-card .card-header {
-                        border-radius: 8px;
-                        transition: all 0.5s ease-in-out;
-                    }
+        </p>
+    </header>
 
-                    .code-card:hover,
-                    .code-card:hover .card-header {
-                        box-shadow: inset 0px 0px 8px
-                        rgba(232, 102, 236, 1), 0 0 15px
-                        rgba(232, 102, 236, 1);
-                    }
-                </code>
-            </div>
-            <div>
-                <h3>Overlay Card with Title</h3>
-                <p>Use position properties and negative margins to raise elements higher than their natural starting point.</p>
+
+    <section>
+        <article>
+            <h3 class="card-header">Flexbox Row</h3>
+                <div>Use these three properties to create a flexbox row layout.</div>
+                    <div class="code">
                 <code>
-                    .card-header {
-                        position: relative;
-                        margin-top: -20px;
+                    .row { <br/>
+                        display: flex; <br/>
+                        flex-direction: row; <br/>
+                        flex-wrap: wrap; <br/>
                     }
                 </code>
-            </div>
+                    </div>
+        </article>
+
+        <article>
+            <h3 class="card-header">Flexbox Column</h3>
+                <div>Use this to create a flexbox column layout.</div>
+                    <div class="code">
+                <code>
+                    .column { <br/>
+                        display: flex; <br/>
+                        flex-direction: column; <br/>
+                    }
+                </code>
+                    </div>
+        </article>
+
+        <article>
+            <h3 class="card-header">CSS Grid Layout</h3>
+                <div>Build a 12-column layout using CSS grid.</div>
+                        <div class="code">
+                    <code>
+                        .grid { <br/>
+                            display: grid; <br>
+                            width: 100%; <br>
+                            grid-template-columns: repeat(12, 1fr); <br>
+                        }
+                    </code>
+                        </div>
+        </article>
+
+        <article>
+            <h3 class="card-header">Linear Gradients</h3>
+                <div>This will create a background linear gradient from top to bottom.</div>
+                    <div class="code">
+                <code>
+                    .linear-gradient-background { </br>
+                        background-image: 1 linear gradient( </br>
+                            rgba(232, 102, 236, 0.3) 0% </br>
+                            rgba(232, 102, 236, 0.6) 100% </br>
+                        ); </br>
+                    }
+                </code>
+                    </div>
+        </article>
+
+        <article>
+            <h3 class="card-header">Box Transition Flow</h3>
+                <div>Use transition and box shadows to glow on hover.</div>
+                    <div class="code">
+                <code>
+                    CODE HERE
+                </code>
+                    </div>
+        </article>
+
+        <article>
+            <h3 class="card-header">Overlay Card with Title</h3>
+                <div>Use position properties and negative margins to raise elements higher than their natural starting point.</div>
+                        <div class="code">
+                    <code>
+                       .card-header { <br>
+                        position: relative; <br>
+                        margin-top: 20px; <br>
+                       }
+                    </code>
+                        </div>
         </article>
     </section>
+
     <footer>
         <p>Made with &#x2764; and CSS</p>
     </footer>
