@@ -22,10 +22,10 @@
 
 
     <section>
-        <article>
+        <article tabindex="0">
             <h3 class="card-header">Flexbox Row</h3>
-                <div>Use these three properties to create a flexbox row layout.</div>
-                    <div class="code">
+                <div class="card-paragraph">Use these three properties to create a flexbox row layout.</div>
+                    <div class="code-container">
                 <code>
                     .row { <br/>
                         display: flex; <br/>
@@ -36,10 +36,10 @@
                     </div>
         </article>
 
-        <article>
+        <article tabindex="0">
             <h3 class="card-header">Flexbox Column</h3>
-                <div>Use this to create a flexbox column layout.</div>
-                    <div class="code">
+                <div class="card-paragraph">Use this to create a flexbox column layout.</div>
+                    <div class="code-container">
                 <code>
                     .column { <br/>
                         display: flex; <br/>
@@ -49,10 +49,10 @@
                     </div>
         </article>
 
-        <article>
+        <article tabindex="0">
             <h3 class="card-header">CSS Grid Layout</h3>
-                <div>Build a 12-column layout using CSS grid.</div>
-                        <div class="code">
+                <div class="card-paragraph">Build a 12-column layout using CSS grid.</div>
+                        <div class="code-container">
                     <code>
                         .grid { <br/>
                             display: grid; <br>
@@ -63,10 +63,10 @@
                         </div>
         </article>
 
-        <article>
+        <article tabindex="0">
             <h3 class="card-header">Linear Gradients</h3>
-                <div>This will create a background linear gradient from top to bottom.</div>
-                    <div class="code">
+                <div class="card-paragraph">This will create a background linear gradient from top to bottom.</div>
+                    <div class="code-container">
                 <code>
                     .linear-gradient-background { </br>
                         background-image: 1 linear gradient( </br>
@@ -78,20 +78,30 @@
                     </div>
         </article>
 
-        <article>
+        <article tabindex="0">
             <h3 class="card-header">Box Transition Flow</h3>
-                <div>Use transition and box shadows to glow on hover.</div>
-                    <div class="code">
+                <div class="card-paragraph">Use transition and box shadows to glow on hover.</div>
+                    <div class="code-container">
                 <code>
-                    CODE HERE
+                    .code-card .card-header {</br>
+                        border-radius: 8px:</br>
+                        transition: all 0.5s ease-in-out:</br>
+                    }</br>
+                    
+                    .code-card:hover,</br>
+                    .code-card:hover .card-header {</br>
+                        box-shadow: inset 0px 0px 8px </br>
+                        rgba(232. 102. 236, 1), 0 0 15px</br>
+                        rgba(232. 102. 236, 1);</br>
+                    }
                 </code>
                     </div>
         </article>
 
-        <article>
+        <article tabindex="0">
             <h3 class="card-header">Overlay Card with Title</h3>
-                <div>Use position properties and negative margins to raise elements higher than their natural starting point.</div>
-                        <div class="code">
+                <div class="card-paragraph">Use position properties and negative margins to raise elements higher than their natural starting point.</div>
+                        <div class="code-container">
                     <code>
                        .card-header { <br>
                         position: relative; <br>
