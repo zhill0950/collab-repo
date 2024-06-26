@@ -50,7 +50,8 @@ article {
   cursor: pointer;
 }
 
-article:focus {
+/* changed focus to hover */
+article:hover {
   box-shadow: 0 0 20px 5px var(--heliotrope);
 }
 
